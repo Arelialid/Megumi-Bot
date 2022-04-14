@@ -5,4 +5,6 @@ createConnection.then(sock => {
     sock.ev.on('messages.upsert', async m => await core(sock, m))	
 })
 
+worker:  node index.js
+
 createConnection.catch(erro => console.log(erro, 'Conn'))
