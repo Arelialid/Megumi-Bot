@@ -1,0 +1,43 @@
+{
+  "name": "wabase-md",
+  "version": "2.1.000",
+  "description": "Robo desenvolvido em JS para o whatsapp-md. Com suporte ao Whatsapp Legacy via Baileys",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2021",
+    "wabase-md",
+    "base",
+    "baileys",
+    "bot"
+  ],
+  "author": "guiguicdd",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^0.21.1",
+    "image-to-base64": "^2.2.0",
+    "jimp": "^0.16.1",
+    "node-fetch": "^2.6.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sharp": "^0.29.3",
+    "wa-sticker-formatter": "^4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiguicdd/wabase-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guiguicdd/wabase-md.git"
+  },
+  "homepage": "https://github.com/guiguicdd/wabase-md#readme"
+}

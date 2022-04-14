@@ -1,0 +1,24 @@
+var { global } = require('../global')
+
+exports.grupo = async () => {
+    var { g } = require('../')
+    
+    const templateButtons = [
+        { index: 1, urlButton: { displayText: '⭐ Github!', url: 'https://github.com/4relial' } },
+        { index: 2, urlButton: { displayText: '📬 Owner', url: 'https://wa.me/6289515275674' } }
+    ]
+    
+    const templateMessage = {
+        text: "Bot Active Now",
+        footer: 'Megumi Bot',
+        templateButtons: templateButtons
+    }
+    
+    await g.sock.sendMessage(g.message.from, templateMessage)
+}
+
+exports.privado = async () => {
+    var { g } = require('../')
+
+    await g.sock.sendMessage(g.message.from, { text: 'Welcome' })
+}

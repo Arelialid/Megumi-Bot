@@ -1,0 +1,7 @@
+exports.main = async () => {
+    const { grupo, privado, core } = require('./modules')
+    var { g } = require('./')
+
+
+	
+}
