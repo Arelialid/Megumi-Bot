@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "pm2-runtime start ecosystem.config.js --env production"
+    "start": "node index.js"
   },
   "keywords": [
     "termux",
@@ -24,6 +24,7 @@
     "@adiwajshing/baileys": "github:adiwajshing/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "axios": "^0.21.1",
+    "express": "^4.17.3",
     "image-to-base64": "^2.2.0",
     "jimp": "^0.16.1",
     "node-fetch": "^2.6.1",
